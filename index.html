@@ -1,0 +1,109 @@
+<!DOCTYPE <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <h1 id="title">Survey Form</h1>
+    <div id="main">
+      <h2 id="description">Feel free to get in touch!</h2>
+     <form id="survey-form" method="GET" action="#">
+
+    <div class="row">
+      <div class="labels">
+          <label for="name">Name:</label>
+      </div> 
+      <div class="inputs">
+            <input type="text" id="name-label" class="input-field" name="name" placeholder="Enter your name" required>
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="labels">
+            <label for="age">Age:</label>
+        </div> 
+        <div class="inputs">
+              <input type="number" id="number-label" class="input-field" name="age" placeholder="Enter your age" min ="1" max="150" required>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="labels">
+            <label for="email">Email:</label>
+        </div> 
+        <div class="inputs">
+              <input type="email" id="email-label" class="input-field" name="email" placeholder="Enter your email" required>
+        </div>
+    </div>
+
+     <div class="row">
+        <div class="labels">
+            <label for="dropdown">Why are you contacting me?:</label>
+        </div> 
+        <div class="inputs">
+          <select id="dropdown">
+            <option value="Request work">Request work</option>
+            <option value="Social">Social</option>
+            <option value="Interview">Interview</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="labels">
+            <label for="rating">How certain are you that I'm a pretty cool guy?:</label>
+        </div> 
+        <div class="inputs">
+          <input type="radio" name="rating" value="100%">100% <br>
+          <input type="radio" name="rating" value="75%">Kinda certain <br>
+          <input type="radio" name="rating" value="50%">Pretty skeptical <br>
+          <input type="radio" name="rating" value="0%">No way! <br>
+        </div>
+    </div>
+
+      <div class="row">
+        <div class="labels">
+            <label for="adjectives">Choose the adjectives you think best describe me:</label>
+        </div> 
+        <div class="inputs">
+          <input type="checkbox" name="adjectives" value="smart"> Smart <br>
+          <input type="checkbox" name="adjectives" value="handsome"> Handsome <br>
+          <input type="checkbox" name="adjectives" value="wunderbar"> Wunderbar <br>
+          <input type="checkbox" name="adjectives" value="sperglord"> Sperglord <br>
+          <input type="checkbox" name="adjectives" value="resplendent"> Resplendent <br>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="labels">
+            <label for="secret">Share your darkest secret:</label>
+        </div> 
+        <div class="inputs">
+          <textarea id="secret" type="textarea" name="secret"></textarea>
+        </div>
+    </div>
+
+
+      <br>
+      <br>
+      <input type="submit">
+     </form>
+      
+
+    </div>
+    <script src="" async defer></script>
+  </body>
+</html>
