@@ -11,13 +11,14 @@ body {
 
 #main {
   background-color:white;
-  min-width: 400px;
+  min-width: 335px;
   max-width: 70%;
   height: 110%;
   margin: auto;
   margin-top: 40px;
   margin-bottom: 80px;
   border-radius: 2%;
+  padding: 25px;
 }
 
 #secret {
@@ -37,7 +38,7 @@ body {
 }
 
 .labels {
-  width: 25%;
+  width: 35%;
   display: inline-block;
   padding: 10px;
   text-align: right;
